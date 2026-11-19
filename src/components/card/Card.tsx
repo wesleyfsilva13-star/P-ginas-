@@ -26,7 +26,7 @@ function Card({
   return (
     <article className="prod_card">
       <figure>
-        <img src={leGrand} alt={imgProduto} />
+        <img src={imgProduto} alt="imagem produto" />
       </figure>
       <h2>
         <Link to={`/detalheProduto/${id}`}>{nome}</Link>

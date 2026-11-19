@@ -14,7 +14,7 @@ export default function App(){
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/produtos" element={<ListaProdutos/>} />
-            <Route path="/detalheProduto/..id" element={<DetProduto/>} />
+            <Route path="/detalheProduto/:id" element={<DetProduto/>} />
             <Route path="/Login" element={<Login/>} />
             <Route path="/admProdutos" element={<AdmProdutos/>} />
             <Route path="*" element={<img className="container-notfound" src="https://azeen.com.br/images/404/not-found.gif"/>} />
