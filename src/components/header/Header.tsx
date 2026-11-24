@@ -4,7 +4,7 @@ import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 function Header(){
-    const navigate = useNavigate()
+    const Navigate = useNavigate()
     const [busca, setBusca]  = useState('')
 
 function ExpRecMenu() {
@@ -34,7 +34,7 @@ function ExpRecMenu() {
             <form className="box_busca" onSubmit={evento => 
             {
                 evento.preventDefault()
-                navigate(`/produtos?q=${encodeURIComponent(busca.trim())}`)
+                Navigate(`/produtos?q=${encodeURIComponent(busca.trim())}`)
             }}>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 640 640">
