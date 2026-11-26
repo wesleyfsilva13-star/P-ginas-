@@ -3,7 +3,7 @@ import './DetProduto.css'
 import { Link, useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import type { Produto } from '../../types/Produto'
-import produtoService from '../../services/produtoService'
+import produtoService from '../../services/pordutoService'
 
 function DetProduto(){
   const {id} = useParams()

@@ -3,7 +3,7 @@ import "./listaProdutos.css";
 import Card from "../../components/card/Card";
 import type {Produto} from '../../types/Produto'
 import {useEffect, useState} from 'react'
-import produtoService from "../../services/produtoService";
+import produtoService from "../../services/pordutoService";
 import { useSearchParams } from "react-router-dom";
 
 

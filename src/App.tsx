@@ -5,7 +5,7 @@ import Home from "./pages/home/Home";
 import ListaProdutos from "./pages/listaProdutos/ListaProdutos";
 import DetProduto from "./pages/detProduto/DetProduto";
 import Login from "./pages/Login/Login";
-import AdmProdutos from "./pages/admProdutos/AdmProdutos";
+import AdmProdutos from "./pages/admProdutos/AdmProdutos"
 
 export default function App(){
     return(
